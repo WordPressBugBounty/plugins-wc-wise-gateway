@@ -4,11 +4,11 @@
  * Plugin Name:          Gateway for Wise on WooCommerce
  * Plugin URI:           https://wordpress.org/plugins/wc-wise-gateway
  * Description:          WooCommerce payment gateway for Wise  
- * Version:              2.2
+ * Version:              2.2.2
  * Requires PHP:         7.0
  * Requires at least:    5.0
  * WC requires at least: 3.2
- * WC tested up to:      8.5.2
+ * WC tested up to:      10.4.3
  * Text Domain:          wc-wise-gateway
  * Domain Path:          /languages
  * Author:               alx359

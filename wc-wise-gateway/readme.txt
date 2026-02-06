@@ -1,12 +1,12 @@
 === Gateway for Wise on WooCommerce ===
 
 Contributors: alx359
-Donate link: https://paypal.me/alx359
-Tags: bank transfer, gateway, wise, transferwise, payment, wire, commerce, checkout, woocommerce
-Tested up to: 6.4.2
+Donate link: https://www.paypal.com/donate/?hosted_button_id=Z44PBY7ARUPRY
+Tags: bank transfer, wise, transferwise, wire, checkout
+Tested up to: 6.9
 Requires at least: 5.0
 Requires PHP: 7.0
-Stable tag: 2.2
+Stable tag: 2.2.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -48,21 +48,28 @@ There's no 'Pro' version. Everything works with no limitations.
 
 = Is this plugin supported? =
 
-Yes, it's supported in the WP forums, when time permits
+No further features are planned at this time, but we will make the effort to address bugs and incompatibilities when time permits. Hit the Support section for common usage questions.
 
 = Acknowledgements =
 
-The plugin is based on the BACS gateway that's already part of WooCommerce.
+The plugin was based on the BACS gateway that's already part of WooCommerce.
 
 == Changelog ==
 
+= 2.2.2 - 2026-01-07 =
+* FIX: updated links to Countries | Continents | Currencies
+
+= 2.2.1 - 2025-12-27 =
+* Fixed a few PHP Deprecated notices in PHP 8.3.x
+* Tested compatibility with recent WP/Woo/PHP
+
 = 2.2 - 2024-01-27 =
 * NEW: Added compatibility with HPOS
-* Tested compatibility with latest WP/WC
+* Tested compatibility with latest WP/Woo
 
 = 2.1.5 - 2022-08-13 =
 * TWEAK: The Wise logo is now taken from URL, for better compatibility with other plugins & themes
-* Tested compatibility with latest WP/WC
+* Tested compatibility with latest WP/Woo
 
 = 2.1.4 - 2022-05-04 =
 * FIX: A line was left commented during the 2.1.3 cleanup. This has affected the ability to save changes of some of the fields (thanks Uberchilli)
@@ -73,7 +80,7 @@ The plugin is based on the BACS gateway that's already part of WooCommerce.
 
 = 2.1.2 - 2022-02-24 =
 * Revised code to adhere to the latest gateway template guidelines shipped with Woocommerce (6.2.1)
-* Tested compatibility with latest WP/WC
+* Tested compatibility with latest WP/Woo
 
 = 2.1.1 - 2021-09-02 =
 * FIX: better adherence to WP plugin coding standards, guidelines, and best practices
@@ -82,7 +89,7 @@ The plugin is based on the BACS gateway that's already part of WooCommerce.
 * NEW: Now site operators can preview the 'Payment Details' pages (aka order-received/thank-you pages) from inside the plugin settings, for those orders placed with Wise as the payment method
 * DEV: Added filter 'ew_wise_limit_orders', to change in functions.php how many orders at once can be fetched for preview (default: 25)
 * FIX: i18n files
-* Tested compatibility with latest WP/WC
+* Tested compatibility with latest WP/Woo
 
 = 2.0.1 - 2021-04-03 =
 * FIX: syntax incompatibility with PHP < 7.4
